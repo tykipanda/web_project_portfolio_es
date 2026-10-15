@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mariana Hernández · Portafolio</title>
-    <link rel="stylesheet" href="./styles/pages/index.css">
+    <link rel="stylesheet" href="./styles/pages/index.css" />
   </head>
   <body class="page">
     <main class="content">
@@ -20,25 +20,101 @@
             <span class="profile__stack">TypeScript, React, Node.js</span>
           </p>
           <p class="profile__description">Desarrolladora web junior con…</p>
-          <ul class="profile__links"></ul>
+          <ul class="profile__links">
             <li><a class="profile__link" href="./cv.pdf">Descargar CV</a></li>
             <li>
-              <a class="profile__link" href="https://github.com/…">Enlace a GitHub</a>
+              <a class="profile__link" href="https://github.com/…">
+                Enlace a GitHub
+              </a>
             </li>
             <li><a class="profile__link" href="#contacto">Hablemos</a></li>
           </ul>
         </div>
         <img
-        class="profile__photo"
-        src="./images/profile-photo.jpg"
-        alt="Foto de perfil de Mariana Hernández"
-        >
+          class="profile__photo"
+          src="./images/profile-photo.jpg"
+          alt="Foto de perfil de Mariana Hernández"
+        />
       </section>
 
       <section class="skills">
         <h2 class="section-title">Habilidades y herramientas</h2>
         <ul class="skills__list">
           <li>
+            <img
+              class="skills__icon"
+              src="./images/icon-html.svg"
+              alt="Logotipo de HTML5"
+            />
+          </li>
+          <!-- Repite el <li> para CSS3, JavaScript, Git, GitHub y ChatGPT -->
+        </ul>
+      </section>
 
+      <section class="projects">
+        <h2 class="section-title">Proyectos destacados</h2>
+        <ul class="projects__list">
+          <li class="card">
+            <div class="card__media">
+              <img
+                class="card__image"
+                src="./images/project-coffee-shop.jpg"
+                alt="Captura de la página web de la cafetería"
+              />
+              <div class="card__veil"></div>
+              <ul class="card__tech">
+                <li>
+                  <img
+                    class="card__tech-icon"
+                    src="./images/icon-html.svg"
+                    alt="HTML5"
+                  />
+                </li>
+                <!-- Repite el <li> con el ícono de CSS3 -->
+              </ul>
+            </div>
+            <div class="card__body">
+              <h3 class="card__title">Página web de una cafetería</h3>
+              <p class="card__text">
+                Desarrollo de una landing page responsiva…
+              </p>
+              <p class="card__text">Logro: Implementé desde cero el diseño…</p>
+              <ul class="card__links">
+                <li>
+                  <a class="card__link card__link_type_demo" href="https://…">
+                    Demo en vivo
+                  </a>
+                </li>
+                <li>
+                  <a class="card__link card__link_type_github" href="https://…">
+                    GitHub
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </li>
+          <!-- Tarjeta «Mi proyecto», con íconos de JavaScript y React -->
+        </ul>
+      </section>
+    </main>
 
-    
+    <footer class="footer" id="contacto">
+      <h2 class="section-title">Contacto</h2>
+      <a class="footer__email" href="mailto:student@tripleten.com">
+        student@tripleten.com
+      </a>
+      <ul class="footer__socials">
+        <li>
+          <a class="footer__social-link" href="https://www.linkedin.com/in/…">
+            <img
+              class="footer__social-icon"
+              src="./images/icon-linkedin.svg"
+              alt="LinkedIn"
+            />
+          </a>
+        </li>
+        <!-- Repite el <li> para Facebook, Instagram y X -->
+      </ul>
+    </footer>
+  </body>
+</html>
