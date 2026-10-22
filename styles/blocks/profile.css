@@ -18,6 +18,7 @@
   width: 387px;
   height: 500px;
   object-fit: cover;
+  flex-shrink: 0;
 
 .profile__link {
   display: inline-block;
