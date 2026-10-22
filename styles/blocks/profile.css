@@ -17,6 +17,7 @@
 .profile__photo {
   width: 387px;
   height: 500px;
+  object-fit: cover;
 
 .profile__link {
   display: inline-block;
