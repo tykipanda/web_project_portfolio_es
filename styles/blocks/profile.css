@@ -22,6 +22,7 @@
 }
 
 .profile__name-line {
+  display: block;
 
 .profile__link {
   display: inline-block;
