@@ -10,3 +10,4 @@
 }
 
 .skills__list {
+  display: flex;
