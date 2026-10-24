@@ -3,3 +3,26 @@
   margin: 0 auto;
   padding: 100px 40px;
 }
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.footer__email {
+  margin: 20px 0 30px;
+  color: #6d6dff;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.footer__socials {
+  display: flex;
+  gap: 80px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
