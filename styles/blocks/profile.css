@@ -74,3 +74,4 @@
 
 @media (max-width: 767px) {
   .profile {
+    flex-direction: column-reverse;
