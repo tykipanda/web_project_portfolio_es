@@ -84,3 +84,4 @@
   }
 
   .profile__links {
+    flex-direction: column;
