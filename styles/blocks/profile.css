@@ -91,3 +91,4 @@
 
 @media (max-width: 767px) {
   .skills__list {
+    display: grid;
