@@ -90,6 +90,3 @@
 }
 
 @media (max-width: 767px) {
-  .skills__list {
-    display: grid;
-    grid-template-columns: repeat(4, 30px);
