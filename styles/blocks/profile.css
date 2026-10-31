@@ -94,3 +94,4 @@
     display: grid;
     grid-template-columns: repeat(4, 30px);
     justify-content: space-between;
+    row-gap: 30px;
