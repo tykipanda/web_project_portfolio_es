@@ -1,24 +1,13 @@
 .section-title {
+  margin: 0;
   font-family: "Archivo Black", "Arial Black", sans-serif;
+  font-size: 40px;
   font-weight: 400;
   line-height: 1.1;
 }
 
-.section-title {
-  margin: 0;
-  font-size: 40px;
-}
-
-.skills__list {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 50px 0 0;
-  padding: 0;
-  list-style: none;
-}
-
-.skills__icon {
-  display: block;
-  width: 50px;
+@media (max-width: 767px) {
+  .section-title {
+    font-size: 28px;
+  }
 }

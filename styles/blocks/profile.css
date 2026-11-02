@@ -112,17 +112,3 @@
     gap: 25px;
   }
 }
-
-@media (max-width: 767px) {
-  .skills__list {
-    display: grid;
-    grid-template-columns: repeat(4, 30px);
-    justify-content: space-between;
-    row-gap: 30px;
-    margin-top: 30px;
-  }
-
-  .skills__icon {
-    width: 30px;
-  }
-}
