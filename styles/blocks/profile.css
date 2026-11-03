@@ -63,12 +63,6 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.card__link:hover,
-.footer__email:hover,
-.footer__social-link:hover {
-  opacity: 0.5;
-}
-
 /* Medias query*/
 
 
