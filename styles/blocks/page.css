@@ -24,4 +24,5 @@
 @media (max-width: 1023px) {
    .page {
     background-image:
-
+      radial-gradient(
+        circle at calc(50% + 194px) 190px,
