@@ -65,7 +65,6 @@
 
 /* Medias query*/
 
-
 @media (max-width: 1023px) {
   .profile {
     align-items: flex-start;
@@ -78,6 +77,14 @@
 
   .profile__name {
     font-size: 58px;
+  }
+
+  .profile__description {
+    margin-top: 20px;
+  }
+
+  .profile__links {
+    margin-top: 20px;
   }
 
   .profile__separator {
