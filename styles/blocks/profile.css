@@ -109,6 +109,7 @@
   }
 
   .profile__name {
+    font-size: 36px;
 
   .profile__links {
     flex-direction: column;
