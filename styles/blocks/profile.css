@@ -125,5 +125,6 @@
   .profile__links {
     flex-direction: column;
     gap: 25px;
+    margin-top: 30px;
   }
 }
