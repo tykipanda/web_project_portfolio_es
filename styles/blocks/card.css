@@ -97,3 +97,4 @@
 
 @media (max-width: 767px) {
   .card__body {
+    padding: 20px;
