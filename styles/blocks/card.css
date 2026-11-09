@@ -94,3 +94,5 @@
 .card__link:hover {
   opacity: 0.5;
 }
+
+@media (max-width: 767px) {
