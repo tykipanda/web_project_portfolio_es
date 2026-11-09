@@ -120,6 +120,7 @@
 
   .profile__description {
     font-size: 16px;
+  }
 
   .profile__links {
     flex-direction: column;
