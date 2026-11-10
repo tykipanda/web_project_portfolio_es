@@ -14,3 +14,7 @@
 }
 
 @media (max-width: 767px) {
+  .projects__list {
+    gap: 10px;
+  }
+}
