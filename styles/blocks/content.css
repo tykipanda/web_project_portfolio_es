@@ -15,6 +15,7 @@
 
 @media (max-width: 767px) {
   .content {
+    padding: 20px 20px 0;
     gap: 60px;
   }
 }
