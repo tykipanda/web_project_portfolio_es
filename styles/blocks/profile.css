@@ -63,7 +63,7 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-/* Medias query*/
+/* Media queries */
 
 @media (max-width: 1023px) {
   .profile {
